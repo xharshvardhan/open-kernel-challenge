@@ -1,0 +1,15 @@
+SGLang
+Copyright 2023-2024 SGLang Team
+
+Portions of the kernel implementations are adapted from SGLang at commit
+a55ab7d5ae1bba59ac351e55026fe7f7644ecc5f, distributed under Apache-2.0.
+The upstream license is included in licenses/Apache-2.0.txt.
+Upstream: https://github.com/sgl-project/sglang
+
+These files include modifications for dense projection dispatch, expert route
+alignment and aggregation, attention preprocessing and parallel reduction,
+and their integration into the decoder layer. Inline source attributions
+identify adapted attention algorithms. Publication changes remove historical
+draft commentary without changing executable syntax trees.
+
+External runtime dependencies remain subject to their respective licenses.

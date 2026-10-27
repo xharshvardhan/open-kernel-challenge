@@ -1,0 +1,14 @@
+# Publish only curated implementations, results and attribution.
+/*
+!/README.md
+!/.gitignore
+!/NOTICE
+!/kernels/
+/kernels/*
+!/kernels/dense_projections.py
+!/kernels/routed_experts.py
+!/kernels/attention_decode.py
+!/kernels/decoder_layer.py
+!/licenses/
+/licenses/*
+!/licenses/Apache-2.0.txt
